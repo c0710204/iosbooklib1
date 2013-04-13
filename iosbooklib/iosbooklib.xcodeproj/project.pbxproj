@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FE45B71719390700940CAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FE45B61719390700940CAC /* UIKit.framework */; };
+		18FE45B91719390700940CAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FE45B81719390700940CAC /* Foundation.framework */; };
+		18FE45BB1719390700940CAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FE45BA1719390700940CAC /* CoreGraphics.framework */; };
+		18FE45C11719390700940CAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18FE45BF1719390700940CAC /* InfoPlist.strings */; };
+		18FE45C31719390700940CAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE45C21719390700940CAC /* main.m */; };
+		18FE45C71719390700940CAC /* iosbooklibAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE45C61719390700940CAC /* iosbooklibAppDelegate.m */; };
+		18FE45C91719390700940CAC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FE45C81719390700940CAC /* Default.png */; };
+		18FE45CB1719390700940CAC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FE45CA1719390700940CAC /* Default@2x.png */; };
+		18FE45CD1719390700940CAC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FE45CC1719390700940CAC /* Default-568h@2x.png */; };
+		18FE45D01719390700940CAC /* iosbooklibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE45CF1719390700940CAC /* iosbooklibViewController.m */; };
+		18FE45D31719390700940CAC /* iosbooklibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FE45D11719390700940CAC /* iosbooklibViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18FE45B31719390700940CAC /* iosbooklib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosbooklib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FE45B61719390700940CAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18FE45B81719390700940CAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18FE45BA1719390700940CAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18FE45BE1719390700940CAC /* iosbooklib-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iosbooklib-Info.plist"; sourceTree = "<group>"; };
+		18FE45C01719390700940CAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18FE45C21719390700940CAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18FE45C41719390700940CAC /* iosbooklib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iosbooklib-Prefix.pch"; sourceTree = "<group>"; };
+		18FE45C51719390700940CAC /* iosbooklibAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosbooklibAppDelegate.h; sourceTree = "<group>"; };
+		18FE45C61719390700940CAC /* iosbooklibAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosbooklibAppDelegate.m; sourceTree = "<group>"; };
+		18FE45C81719390700940CAC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		18FE45CA1719390700940CAC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		18FE45CC1719390700940CAC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18FE45CE1719390700940CAC /* iosbooklibViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosbooklibViewController.h; sourceTree = "<group>"; };
+		18FE45CF1719390700940CAC /* iosbooklibViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosbooklibViewController.m; sourceTree = "<group>"; };
+		18FE45D21719390700940CAC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iosbooklibViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FE45B01719390700940CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE45B71719390700940CAC /* UIKit.framework in Frameworks */,
+				18FE45B91719390700940CAC /* Foundation.framework in Frameworks */,
+				18FE45BB1719390700940CAC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FE45AA1719390700940CAC = {
+			isa = PBXGroup;
+			children = (
+				18FE45BC1719390700940CAC /* iosbooklib */,
+				18FE45B51719390700940CAC /* Frameworks */,
+				18FE45B41719390700940CAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FE45B41719390700940CAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FE45B31719390700940CAC /* iosbooklib.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FE45B51719390700940CAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18FE45B61719390700940CAC /* UIKit.framework */,
+				18FE45B81719390700940CAC /* Foundation.framework */,
+				18FE45BA1719390700940CAC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18FE45BC1719390700940CAC /* iosbooklib */ = {
+			isa = PBXGroup;
+			children = (
+				18FE45C51719390700940CAC /* iosbooklibAppDelegate.h */,
+				18FE45C61719390700940CAC /* iosbooklibAppDelegate.m */,
+				18FE45CE1719390700940CAC /* iosbooklibViewController.h */,
+				18FE45CF1719390700940CAC /* iosbooklibViewController.m */,
+				18FE45D11719390700940CAC /* iosbooklibViewController.xib */,
+				18FE45BD1719390700940CAC /* Supporting Files */,
+			);
+			path = iosbooklib;
+			sourceTree = "<group>";
+		};
+		18FE45BD1719390700940CAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FE45BE1719390700940CAC /* iosbooklib-Info.plist */,
+				18FE45BF1719390700940CAC /* InfoPlist.strings */,
+				18FE45C21719390700940CAC /* main.m */,
+				18FE45C41719390700940CAC /* iosbooklib-Prefix.pch */,
+				18FE45C81719390700940CAC /* Default.png */,
+				18FE45CA1719390700940CAC /* Default@2x.png */,
+				18FE45CC1719390700940CAC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FE45B21719390700940CAC /* iosbooklib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FE45D61719390700940CAC /* Build configuration list for PBXNativeTarget "iosbooklib" */;
+			buildPhases = (
+				18FE45AF1719390700940CAC /* Sources */,
+				18FE45B01719390700940CAC /* Frameworks */,
+				18FE45B11719390700940CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iosbooklib;
+			productName = iosbooklib;
+			productReference = 18FE45B31719390700940CAC /* iosbooklib.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FE45AB1719390700940CAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iosbooklib;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Apple;
+			};
+			buildConfigurationList = 18FE45AE1719390700940CAC /* Build configuration list for PBXProject "iosbooklib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18FE45AA1719390700940CAC;
+			productRefGroup = 18FE45B41719390700940CAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FE45B21719390700940CAC /* iosbooklib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FE45B11719390700940CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE45C11719390700940CAC /* InfoPlist.strings in Resources */,
+				18FE45C91719390700940CAC /* Default.png in Resources */,
+				18FE45CB1719390700940CAC /* Default@2x.png in Resources */,
+				18FE45CD1719390700940CAC /* Default-568h@2x.png in Resources */,
+				18FE45D31719390700940CAC /* iosbooklibViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FE45AF1719390700940CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE45C31719390700940CAC /* main.m in Sources */,
+				18FE45C71719390700940CAC /* iosbooklibAppDelegate.m in Sources */,
+				18FE45D01719390700940CAC /* iosbooklibViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18FE45BF1719390700940CAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FE45C01719390700940CAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18FE45D11719390700940CAC /* iosbooklibViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FE45D21719390700940CAC /* en */,
+			);
+			name = iosbooklibViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FE45D41719390700940CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18FE45D51719390700940CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FE45D71719390700940CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iosbooklib/iosbooklib-Prefix.pch";
+				INFOPLIST_FILE = "iosbooklib/iosbooklib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18FE45D81719390700940CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iosbooklib/iosbooklib-Prefix.pch";
+				INFOPLIST_FILE = "iosbooklib/iosbooklib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FE45AE1719390700940CAC /* Build configuration list for PBXProject "iosbooklib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE45D41719390700940CAC /* Debug */,
+				18FE45D51719390700940CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FE45D61719390700940CAC /* Build configuration list for PBXNativeTarget "iosbooklib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE45D71719390700940CAC /* Debug */,
+				18FE45D81719390700940CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FE45AB1719390700940CAC /* Project object */;
+}
